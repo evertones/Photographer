@@ -12,8 +12,8 @@ License URI:   http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-/* ========================================================================== 
-    General 
+/* ==========================================================================
+    General
 ========================================================================== */
 h1,h2,h3,h4,h5,h6,.navbar {
     /*font-family:'Oswald';*/
@@ -56,6 +56,12 @@ a:hover {
     background:#34c8b2;
 }
 
+.btn-photographe {
+    color: #fff;
+    background-color: #f06292;
+    border-color: #f06292;
+}
+
 img {
     max-width:100%;
     max-height: 100%;
@@ -64,7 +70,8 @@ img {
 .hexagon {
     width:100px;
     height:55px;
-    background:#3acab1;
+    /*background:#3acab1;*/
+    background:#e91e63;
     position:relative;
     /*transition*/
     -webkit-transition:all 0.3s;
@@ -82,7 +89,8 @@ img {
     height:0;
     border-left:50px solid transparent;
     border-right:50px solid transparent;
-    border-bottom:25px solid #3acab1;
+    /*border-bottom:25px solid #3acab1;*/
+    border-bottom:25px solid #e91e63;
     /*transition*/
     -webkit-transition:all 0.3s;
     -moz-transition:all 0.3s;
@@ -99,7 +107,8 @@ img {
     height:0;
     border-left:50px solid transparent;
     border-right:50px solid transparent;
-    border-top:25px solid #3acab1;
+    /*border-top:25px solid #3acab1;*/
+    border-top:25px solid #e91e63;
     /*transition*/
     -webkit-transition:all 0.3s;
     -moz-transition:all 0.3s;
@@ -107,21 +116,23 @@ img {
     transition:all 0.3s;
 }
 
-.hexagon:hover {
+/*.hexagon:hover {
     background:#ec343c;
-}
+}*/
 
 .hexagon:hover:before {
-    border-bottom-color:#ec343c;
+    /*border-bottom-color:#ec343c;*/
+    border-bottom-color:#e91e63;
 }
 
 .hexagon:hover:after {
-    border-top-color: #ec343c;
+    /*border-top-color: #ec343c;*/
+    border-top-color:#e91e63;
 }
 
 
-/* ========================================================================== 
-Navigation 
+/* ==========================================================================
+Navigation
 ========================================================================== */
 .navbar-dark {
     background:#222222;
@@ -138,6 +149,12 @@ Navigation
     padding:25px 15px;
 }
 
+.navbar-brand-purple {
+    /*color:#d500f9;*/
+    color: #e91e63;
+    text-decoration:none;
+}
+
 .navbar-nav>li>a {
     padding-top:25px;
     padding-bottom:25px;
@@ -149,17 +166,20 @@ Navigation
 }
 
 .navbar-brand:hover {
-    color:#ec343c;
+    /*color:#d500f9;*/
+    color: #e91e63;
     text-decoration:none;
 }
 
 .nav>li>a:hover,.nav>li>a:focus {
-    background-color:#ec343c;
+    /*background-color:#ec343c;*/
+    /*background-color:#d500f9;*/
+    background-color:#e91e63;
     color: white;
 }
 
 
-/* ========================================================================== 
+/* ==========================================================================
 Caurosel
 ========================================================================== */
 .carousel-control {
@@ -221,40 +241,58 @@ Caurosel
 }
 
 
-/* ========================================================================== 
-content-block 
+/* ==========================================================================
+content-block
 ========================================================================== */
 .content-block {
-    padding:60px 0;
+    padding:20px 0;
     width:100%;
 }
 
-.content-block-cyan {
-    background:#34c8b2;
-    color:#ECF0F1;
+.content-block-violet {
+    /*background:#34c8b2;*/
+    background:#fff;
+    color:#aaa;
 }
 
-.content-block-cyan h1 {
+.content-block-violet h1 {
+    color: #f06292;
     font-weight:100;
     text-transform:uppercase;
     margin-bottom: 30px;
 }
 
 
-/* ========================================================================== 
+/* ==========================================================================
 Recent works
 ========================================================================== */
+/*.recent-projects-title-old {
+    background: rgba(236, 240, 241, 1);
+    color: #333;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 34px;
+    font-family: 'News Cycle', sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+*/
+
 .recent-projects-title {
     background: rgba(236, 240, 241, 1);
     color: #333;
     text-transform: uppercase;
-    padding: 40px 0px;
-    text-align: center;
-    font-size: 62px;
+    padding: 5px 0px;
+    text-align: left;
+    padding-left: 15px;
+    /*font-size: 34px;*/
     font-family: 'News Cycle', sans-serif;
-    word-spacing: 17px;
-    letter-spacing: 4px;
-    font-weight: 400;
+    /*word-spacing: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;*/
 }
 
 .owl-carousel .owl-item img {
@@ -305,12 +343,12 @@ Recent works
 }
 
 .owl-theme .owl-controls .owl-page span {
-    background: #34C8B2;
+    background: #f06292;
 }
 
 
-/* ========================================================================== 
-blog 
+/* ==========================================================================
+blog
 ========================================================================== */
 .block-heading h1 {
     margin-top:0;
@@ -325,7 +363,7 @@ blog
 }
 
 
-/* ========================================================================== 
+/* ==========================================================================
 Social
 ========================================================================== */
 #social {
@@ -345,11 +383,11 @@ Social
 }
 
 
-/* ========================================================================== 
+/* ==========================================================================
 footer
 ========================================================================== */
 footer.content-block {
-    padding: 60px 0 38px;
+    padding: 20px 0 20px;
     width: 100%;
 }
 
@@ -363,7 +401,7 @@ footer {
 }
 
 
-/* ========================================================================== 
+/* ==========================================================================
 Responsive styles
 ========================================================================== */
 
