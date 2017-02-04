@@ -23,165 +23,181 @@
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars fa-2x"></i>
+                </button>
+                <!--a class="navbar-brand" href="#"><strong>PHOTO</strong><span class="navbar-brand-purple">GRAPHE<span></a-->
+                <img src="img/logo/photographe_white.png" style="max-width: 200px; opacity: 0.8;" class="navbar-brand" />
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="section active"><a href="#carousel-header">Início</a></li>
+                    <li class="section"><a href="#about">Sobre</a></li>
+                    <li class="section"><a href="#projects">Projetos</a></li>
+                    <li><a href="/pages/portfolio.html">Portfolio</a></li>
+                    <li class="section"><a href="#contact">Contato</a></li>
+                </ul>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </div>
 
-        <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-                    <!--a class="navbar-brand" href="#"><strong>PHOTO</strong><span class="navbar-brand-purple">GRAPHE<span></a-->
-                    <img src="img/logo/photographe_white.png" style="max-width: 200px; opacity: 0.8;" class="navbar-brand" />
+    <div id="carousel-header" class="carousel slide" data-ride="carousel" data-interval="8000">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="camera-icon hidden-sm hidden-xs">
+                <div class="circle">
+                    <div class="hexagon">
+                        <i class="fa  fa-camera"></i>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#carousel-header">Início</a></li>
-                        <li><a href="#about">Sobre</a></li>
-                        <li><a href="#projects">Projetos</a></li>
-                        <li><a href="#contact">Contato</a></li>
-                    </ul>
-                </div><!--/.navbar-collapse -->
+            </div>
+
+            <div class="item active">
+                <img src="img/frontpage/site_cover1.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/frontpage/site_cover2.jpg" alt="">
             </div>
         </div>
 
-        <div id="carousel-header" class="carousel slide" data-ride="carousel" data-interval="8000">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="camera-icon hidden-sm hidden-xs">
-                    <div class="circle">
-                        <div class="hexagon">
-                            <i class="fa  fa-camera"></i>
-                        </div>
-                    </div>
-                </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-header" role="button" data-slide="next">
+            <img src="img/left.png" alt="Previous">
+        </a>
+        <a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
+            <img src="img/right.png" alt="Next">
+        </a>
+    </div>
 
-                <div class="item active">
-                    <img src="img/frontpage/site_cover1.jpg" alt="">
-                </div>
-
-                <div class="item">
-                    <img src="img/frontpage/site_cover2.jpg" alt="">
-                </div>
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-header" role="button" data-slide="next">
-                <img src="img/left.png" alt="Previous">
-            </a>
-            <a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
-                <img src="img/right.png" alt="Next">
-            </a>
-        </div>
-
-
-        <div id="about" class="content-block content-block-violet">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <h1>LEILA FERREIRA</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit vel ligula non auctor. In at mattis felis. Etiam eget ante id neque ultricies pretium. Vivamus efficitur lacus at elit eleifend blandit. Proin interdum ornare tortor, a molestie arcu. Proin vestibulum nunc ac nulla luctus, vitae egestas nunc fringilla. Phasellus.
-                        </p>
-                    </div>
+    <div id="about" class="content-block content-block-violet">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1>LEILA FERREIRA</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit vel ligula non auctor. In at mattis felis. Etiam eget ante id neque ultricies pretium. Vivamus efficitur lacus at elit eleifend blandit. Proin interdum ornare tortor, a molestie arcu. Proin vestibulum nunc ac nulla luctus, vitae egestas nunc fringilla. Phasellus.
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
 
-
-        <div id="projects" class="recent-projects">
-            <div class="recent-projects-title" style="padding:15px 10px;">
-                <strong><span style="color: #f06292;"> &gt; </span> Projetos </strong> Recentes
-            </div>
-
-            <div class="recent-projects-content content-block-gray">
-                <div id="owl-example" class="owl-carousel">
-                    <div>
-                        <img src="img/frontpage/site4.jpg" alt="">
-                        <a href="#">Ver mais</a>
-                    </div>
-                    <div>
-                        <img src="img/frontpage/site2.jpg" alt="">
-                        <a href="#">Ver mais</a>
-                    </div>
-                    <div>
-                        <img src="img/frontpage/site6.jpg" alt="">
-                        <a href="#">Ver mais</a>
-                    </div>
-                    <div>
-                        <img src="img/frontpage/site1.jpg" alt="">
-                        <a href="#">Ver mais</a>
-                    </div>
-                    <div>
-                        <img src="img/frontpage/site5.jpg" alt="">
-                        <a href="#">Ver mais</a>
-                    </div>
-                    <div>
-                        <img src="img/frontpage/site3.jpg" alt="">
-                        <a href="#">Ver mais</a>
-                    </div>
-                </div>
-            </div>
-        </div><!-- /.recent-projects -->
-
-
-        <div id="contact" class="recent-projects">
-            <div class="recent-projects-title" style="padding:15px 10px; background-color: white;">
-                <strong><span style="color: #f06292;"> &gt; </span></strong>Entre em <strong>Contato</strong>
-            </div>
-
-            <div class="recent-projects-content">
-                <div class="form-group form-label" style="padding: 0px 35px 0px 35px;">
-                    <label for="name"> Nome </label>
-                    <input id="name" name="name" type="text" class="form-control input-sm" maxlength="64">
-                </div>
-
-                <div class="form-group form-label" style="padding: 0px 35px 0px 35px;">
-                    <label for="email"> E-mail </label>
-                    <input id="email" name="email" type="text" class="form-control input-sm" maxlength="64">
-                </div>
-
-                <div class="form-group form-label" style="padding: 0px 35px 0px 35px;">
-                    <label for="description"> Mensagem </label>
-                    <textarea class="form-control" rows="5" name="description" id="description" maxlength="512" ng-disabled="service_provider == 'false'"></textarea>
-                </div>
-                <div class="form-group" style="padding: 0px 35px 0px 35px;">
-                    <button type="button" class="btn btn-photographe form-label"> Enviar mensagem </button>
-                </div>
-           </div>
+    <div id="social-networks" class="social-networks">
+        <div class="recent-projects-title" style="padding:15px 10px; background-color: white;">
+            <strong><span style="color: #f06292;"> &gt; </span> Redes </strong> Sociais
         </div>
 
-        <br />
+        <div class="recent-projects-content content-block-gray" style="background-color: white;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <a href="http://www.facebook.com/photosbyleila"><i class="fa fa-facebook" style="width: 40px;"></i>facebook/photosbyleila</a>
+                  </div>
+                  <div class="col-md-12">
+                      <a href="http://www.instagram.com/photosbyleila"><i class="fa fa-instagram" style="width: 40px;"></i>instagram/photosbyleila</a>
+                  </div>
+              </div>
+          </div>
+          <br />
+        </div>
+    </div><!-- /.social-networks -->
 
-        <!--div id="social" class="content-block">
-            <div class="container text-center">
-                <div class="hexagon"><a href="#"><i class="fa fa-facebook"></i></a></div>
-                <div class="hexagon"><a href="#"><i class="fa fa-twitter"></i></a></div>
-                <div class="hexagon"><a href="#"><i class="fa fa-google-plus"></i></a></div>
-                <div class="hexagon"><a href="#"><i class="fa fa-instagram"></i></a></div>
-                <div class="hexagon"><a href="#"><i class="fa fa-pinterest"></i></a></div>
-                <div class="hexagon"><a href="#"><i class="fa fa-envelope"></i></a></div>
+    <div id="projects" class="recent-projects">
+        <div class="recent-projects-title" style="padding:15px 10px; background-color: white;">
+            <strong><span style="color: #f06292;"> &gt; </span> Projetos </strong> Recentes
+        </div>
+
+        <div class="recent-projects-content" style="background-color: white;">
+            <div id="owl-example" class="owl-carousel">
+                <div>
+                    <img src="img/frontpage/site4.jpg" alt="">
+                    <a href="pages/portfolio.html">Ver mais</a>
+                </div>
+                <div>
+                    <img src="img/frontpage/site2.jpg" alt="">
+                    <a href="pages/portfolio.html">Ver mais</a>
+                </div>
+                <div>
+                    <img src="img/frontpage/site6.jpg" alt="">
+                    <a href="pages/portfolio.html">Ver mais</a>
+                </div>
+                <div>
+                    <img src="img/frontpage/site1.jpg" alt="">
+                    <a href="pages/portfolio.html">Ver mais</a>
+                </div>
+                <div>
+                    <img src="img/frontpage/site5.jpg" alt="">
+                    <a href="pages/portfolio.html">Ver mais</a>
+                </div>
+                <div>
+                    <img src="img/frontpage/site3.jpg" alt="">
+                    <a href="pages/portfolio.html">Ver mais</a>
+                </div>
             </div>
-        </div-->
+        </div>
+    </div><!-- /.recent-projects -->
 
+    <div id="contact" class="recent-projects">
+        <div class="recent-projects-title" style="padding:15px 10px; background-color: white;">
+            <strong><span style="color: #f06292;"> &gt; </span></strong>Entre em <strong>Contato</strong>
+        </div>
 
-        <footer class="content-block content-block-dark">
-            <p>&copy; Copyright Photographe 2016.</p>
-        </footer>
+        <div class="recent-projects-content" style="background-color: white;">
+            <div class="form-group form-label" style="padding: 0px 35px 0px 35px;">
+                <label for="name"> Nome </label>
+                <input id="name" name="name" type="text" class="form-control input-sm" maxlength="64">
+            </div>
 
-        <script src="js/jquery-2.1.3.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+            <div class="form-group form-label" style="padding: 0px 35px 0px 35px;">
+                <label for="email"> E-mail </label>
+                <input id="email" name="email" type="text" class="form-control input-sm" maxlength="64">
+            </div>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <!-- Include js plugin -->
-        <script src="owl-carousel/owl.carousel.js"></script>
+            <div class="form-group form-label" style="padding: 0px 35px 0px 35px;">
+                <label for="description"> Mensagem </label>
+                <textarea class="form-control" rows="5" name="description" id="description" maxlength="512" ng-disabled="service_provider == 'false'"></textarea>
+            </div>
+            <div class="form-group" style="padding: 0px 35px 0px 35px;">
+                <button type="button" class="btn btn-photographe form-label"> Enviar mensagem </button>
+            </div>
+       </div>
+    </div>
 
-        <script src="js/main.js"></script>
+    <br />
 
-    </body>
+    <!--div id="social" class="content-block">
+        <div class="container text-center">
+            <div class="hexagon"><a href="http://www.facebook.com/photosbyleila"><i class="fa fa-facebook"></i></a></div-->
+            <!--div class="hexagon"><a href="#"><i class="fa fa-twitter"></i></a></div>
+            <div class="hexagon"><a href="#"><i class="fa fa-google-plus"></i></a></div-->
+            <!--div class="hexagon"><a href="http://www.instagram.com/photosbyleila"><i class="fa fa-instagram"></i></a></div-->
+            <!--div class="hexagon"><a href="#"><i class="fa fa-pinterest"></i></a></div>
+            <div class="hexagon"><a href="#"><i class="fa fa-envelope"></i></a></div-->
+        <!--/div>
+    </div-->
+
+    <footer class="content-block content-block-dark">
+        <p>&copy; Copyright Photographe 2016.</p>
+    </footer>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- Include js plugin -->
+    <script src="owl-carousel/owl.carousel.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
 </html>
